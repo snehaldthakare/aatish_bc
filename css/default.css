@@ -1,0 +1,343 @@
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, tr, td {
+	margin:0;
+	padding:0;
+}
+html, body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:
+	margin:0px;
+	padding:0px;
+	background:url(../images/main_bg-of-pandhariearthmoversinnashik.png) top left repeat-x;
+	background-color:#fffff;
+	background-position:top;
+	text-align:justify;
+}
+/* PARAGRAPH STYLES */
+
+H1, H2, H3, H4, H5, H6 {
+	font-size:100%;
+	font-weight:normal;
+}
+UL, OL {
+	list-style: none;
+}
+li {
+	list-style-type:none;
+}
+a {
+	color:#ffffff;
+	text-decoration:none;
+}
+/*A:active { text-decoration:none; color:#;}*/
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+.clr {
+	clear:both;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+img {
+	border:0;
+}
+input, textarea, select {
+	border:solid 1px #89C5C5;
+	padding:3px;
+	width:190px;
+}
+#wrapper {
+	width:1000px;
+	min-height:1000px;
+	margin:0px auto;
+}
+#wrapper_in {
+	min-height:1000px;
+}
+#wrapper #wrapper_in .topsection {
+	height:130px;
+}
+#wrapper #wrapper_in .logo a {
+	float:left;
+	height:125px;
+	width:120px;
+	background:url(../images/logoofpandhariearthmoversinnashik.png) left 5px no-repeat;
+}
+#wrapper #wrapper_in .logo_header1 {
+	background:url(../images/logo_header1-pandhariearthmoversinnashik.png) no-repeat;
+	width:300px;
+	height:30px;
+	float:left;
+	margin:30px 0px 0px 10px;
+}
+#wrapper #wrapper_in .logo_header2 {
+	background:url(../images/logo_header2-pandhariearthmoversinnashik.png) no-repeat;
+	width:295px;
+	height:25px;
+	float:left;
+	margin-left:6px;
+}
+.header_call {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	width:400px;
+	float:right;
+	margin-top:30px;
+}
+#wrapper_in .header {
+}
+#wrapper_in .header_slider {
+	height:400px;
+}
+/*middle content start*/
+#wrapper #wrapper_in .content {
+	min-height:550px;
+	width:100%;
+	float:right;
+}
+/*left contact start*/
+.content_left {
+	width:350px;
+	float:left;
+	min-height:550px;
+	background:#444444;
+}
+.director_img{margin:20px 20px 0 20px;}
+.left_contentmtr{margin:20px 20px 0px 80px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#B4B4B4;
+	text-align:left;
+	width:200px;
+	}
+.left_contentmtr1{width:250px; margin:0px auto; margin-top:20px;}
+.left_contentmtr1 a:hover
+{color:#999;
+}
+.title {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:16px;
+	color:#FFF;
+	width:200px;
+}
+#table_textcolor {
+	color:#CCC;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	width:280px;
+	margin-top:30px;
+}
+.table_lineheight {
+	height:30px;
+}
+.content_mdlmtr {
+	font-weight:bold;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#FFF;
+}
+#wrapper #wrapper_in .content_middle {
+	width:340px;
+	min-height:500px;
+	float:left;
+	background:#525151;
+}
+.middle_about {
+	background:url(../images/about-nashik-in-property-shree-pandhari.png) center no-repeat;
+	height:22px;
+	width:320px;
+	margin-top:30px;
+}
+.middle_img {
+	background:url(../images/img1.jpg) center no-repeat;
+	height:200px;
+	width:300px;
+	margin-top:15px;
+	margin-left:17px;
+}
+.middle_contectmtr {
+	min-height:300px;
+}
+.middle_mtr {
+	width:260px;
+	height:350px;
+	margin:10px 10px 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#B4B4B4;
+	text-align:left;
+}
+/*secound middle content start*/
+.content_middle2 {
+	width:330px;
+	min-height:500px;
+	float:left;
+	background:#686868;
+}
+.middle_services {
+	background:url(../images/services-nashik-in-property-shree-pandhari.png) center no-repeat;
+	height:22px;
+	width:320px;
+	margin-top:30px;
+}
+.middle_img2 {
+	background:url(../images/img2.jpg) center no-repeat;
+	height:200px;
+	width:300px;
+	margin-top:15px;
+	margin-left:15px;
+}
+.middle_contectmtr {
+	min-height:300px;
+}
+.middle_mtr {
+	width:280px;
+	height:350px;
+	margin:10px 10px 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#B4B4B4;
+	line-height:15pt;
+}
+.li1 {
+	background-image: url(../images/bullet-icon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 20px;
+	line-height:15pt;
+}
+/*third middle content start*/
+.content_middle3 {
+	width:330px;
+	min-height:500px;
+	float:left;
+	background:#797979;
+}
+.middle_office {
+	background:url(../images/office-nashik-in-property-shree-pandhari.png) center no-repeat;
+	height:22px;
+	width:300px;
+	margin-top:30px;
+}
+.middle_img3 {
+	background:url(../images/img3.jpg) center no-repeat;
+	height:200px;
+	width:300px;
+	margin-top:15px;
+	margin-left:15px;
+}
+.middle_contectmtr {
+	min-height:300px;
+}
+.middle_mtr {
+	width:280px;
+	height:350px;
+	margin:10px 30px 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#CCC;
+	line-height:15pt;
+}
+.mdlcontent_add {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+}
+.about_middlemtr {
+	width:630px;
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000000;
+	font-size:12px;
+	margin-top:20px;
+	line-height:15pt;
+}
+.asociate{width:100%; height:200px; background:url(../images/propertyinnashik-savitabalasahebborade.jpg) top center no-repeat; margin-top:15px;}
+#footer {
+	min-height:300px;
+	background:url(../images/footer_bg-nashikinearthmovers.gif) bottom left repeat-x;
+}
+#footer .footer_content {
+	width:1000px;
+	margin:0px auto;
+	min-height:300px;
+}
+.footer_content_in {
+	background:url(../images/main_earth.gif) right top no-repeat;
+	height:270px;
+}
+#footer .footer_contact {
+	width:130px;
+	float:left;
+	font-family:Bell Gothic Std Light;
+	font-size:25px;
+	color:#FFF;
+	padding-top:25px;
+	max-height:450px;
+}
+#footer .footer_contactfild {
+	color:#CCC;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin-top:20px;
+}
+.contacttxt {
+	border-bottom-style:solid;
+	border:none;
+	color:#666;
+	width:200px;
+}
+.contact_fildhight {
+	height:40px;
+}
+.contact_add{width:600px; float:left; margin:20px 0px 0px 30px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#CCC;}
+.clr {
+	clear:both;
+}
+.footer_findus {
+	margin-top:20px;
+	border:none;
+	text-decoration:none;
+}
+.footer_finduslogo {
+	margin-right:5px;
+}
+.footer_findlogo {
+	float:right;
+	margin-right:150px;
+}
+.footer_rights {
+	line-height:0px;
+	color:#CCC;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+#counter_161236 {
+	width:100px;
+	font-family: "Verdana";
+	font-size: 11px;
+	clear: left;
+	color: #BBBBBB;
+}
+#counter_161236 a {
+	color: #BBBBBB;
+	width:100px;
+}
+#counter_div_161236 {
+	height: 0px
+}
+
